@@ -1,0 +1,17 @@
+{
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "extends": ["tslint-config-airbnb", "tslint-config-prettier", "tslint-react"],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "singleQuote": true,
+        "semi": false,
+        "trailingComma": "all"
+      }
+    ],
+    "import-name": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"],
+    "jsx-no-multiline-js": false
+  }
+}
